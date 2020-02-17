@@ -1,11 +1,11 @@
 PREFIX : <http://purl.org/biosemantics-lumc/shex/ern-common-data-elements/>
 PREFIX obo: <http://purl.obolibrary.org/obo/> 
 
-:person IRI { 
+:personShape IRI { 
   a [obo:NCBITaxon_9606];
-  obo:RO_0000087 @:person-role
+  obo:RO_0000087 @:personRoleShape
 }
 
-:person-role IRI {
+:personRoleShape IRI {
   a [obo:OBI_0000093]
 } 
