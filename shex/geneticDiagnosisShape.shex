@@ -20,10 +20,10 @@ PREFIX dct: <http://purl.org/dc/terms/>
 :variantShape IRI {
   a [obo:VariO_0001];
   wdp:Property:P3331 xsd:string+;
-  sio:SIO_000628 @:geneShape
+  sio:SIO_000628 @:geneShape /^http:\/\/identifiers.org\//
 } 
 
-:geneShape IRI {
+:geneShape IRI  /^http:\/\/identifiers.org\// {
   a [obo:NCIT_C16612];
   dct:identifier xsd:string
 } 
