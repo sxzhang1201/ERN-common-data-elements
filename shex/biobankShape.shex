@@ -1,0 +1,12 @@
+PREFIX : <http://purl.org/biosemantics-lumc/shex/ern-common-data-elements/>
+PREFIX obo: <http://purl.obolibrary.org/obo/> 
+PREFIX rdc: <http://rdf.biosemantics.org/ontologies/rd-connect/>
+
+:personShape IRI { 
+  a [obo:NCBITaxon_9606];
+  rdc:6c9783cd_d632_4e8b_bc0c_a83ea200f1b1 @:biobankShape
+}
+
+:biobankShape IRI {
+  a [rdc:fcd2eb61_fa25_4d73_bb64_8bd4b31eadc4]
+} 
