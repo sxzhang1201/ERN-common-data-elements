@@ -1,0 +1,23 @@
+PREFIX : <http://purl.org/biosemantics-lumc/shex/ern-common-data-elements/>
+PREFIX sio: <http://semanticscience.org/ontology/sio.owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+PREFIX ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
+PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
+
+:personShape IRI {
+    a [obo:NCBITaxon_9606];
+    sio:SIO_000011 @:birthDateShape;
+    obo:ERO_0001966 @:genderShape
+}
+
+:birthDateShape IRI {
+    a [ncit:C68615];
+    sio:SIO_000300 xsd:date
+}
+
+:genderShape IRI {
+    a [ncit:C28421];
+    sio:SIO_000217 [snomedct:703118005 snomedct:394743007 snomedct:394744001 snomedct:703117000]
+}
