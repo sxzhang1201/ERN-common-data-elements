@@ -9,7 +9,7 @@ PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
 :personShape IRI {
   a [obo:NCBITaxon_9606];
   sio:SIO_000011 @:birthDateShape;
-  obo:ERO_0001966 @:genderShape;
+  obo:ERO_0001966 @:genderShape
 }
 
 :birthDateShape IRI {
@@ -21,6 +21,3 @@ PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
   a [ncit:C28421];
   sio:SIO_000300 [snomedct:703118005 snomedct:394743007 snomedct:394744001 snomedct:703117000]
 }
-
-# Issue: "sio:SIO_000300" is data property whose range should be literal,
-# and suggest using a object property, e.g., "sio:SIO_000217(has_quality)"

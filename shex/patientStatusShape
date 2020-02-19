@@ -9,7 +9,7 @@ PREFIX hl7: <http://purl.bioontology.org/ontology/HL7/>
 
 :personShape IRI {
   a [obo:NCBITaxon_9606];
-  sio:SIO_000011 @:statusShape;
+  sio:SIO_000011 @:statusShape
 }
 
 :statusShape IRI {

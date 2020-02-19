@@ -50,11 +50,6 @@ PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
 
 
 
-# Issue: The definition citation of "efo:age_at_diagnosis" is "snomedct:age_at_diagnosis",
-# so suggest using SNOMED CT to reduce the number of ontologies used.
-
 # Issue: "omit:antenatal" is not found so "snomedct:antenatal (263675000) is used instead"
-
-# diagnosisAgeValueShape should be a node (shape)?
 
 
