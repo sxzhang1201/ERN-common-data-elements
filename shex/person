@@ -9,5 +9,3 @@ PREFIX obo: <http://purl.obolibrary.org/obo/>
 :person-role IRI {
   a [obo:OBI_0000093]
 } 
-
-test
