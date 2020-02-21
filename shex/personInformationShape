@@ -1,6 +1,6 @@
 PREFIX : <http://purl.org/biosemantics-lumc/shex/ern-common-data-elements/>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
-PREFIX sio: <http://semanticscience.org/ontology/sio.owl#>
+PREFIX sio: <http://semanticscience.org/resource/>
 PREFIX ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
