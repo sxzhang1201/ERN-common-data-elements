@@ -49,7 +49,3 @@ PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
 }
 
 
-
-# Issue: "omit:antenatal" is not found so "snomedct:antenatal (263675000) is used instead"
-
-

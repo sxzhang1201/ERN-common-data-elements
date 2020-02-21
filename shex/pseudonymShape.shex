@@ -14,8 +14,3 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   a [edam:data_0842];
   dct:identifier xsd:string
 }
-
-# Issue : "rdc-meta:pseudonym patient ID" is not found so "edam:identifier" is used instead
-
-
-
