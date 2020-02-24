@@ -8,5 +8,5 @@ PREFIX rdc: <http://rdf.biosemantics.org/ontologies/rd-connect/>
 }
 
 :biobankShape IRI {
-  a [rdc:fcd2eb61_fa25_4d73_bb64_8bd4b31eadc4]
+  a [obo:OMIABIS_0000010]
 } 
