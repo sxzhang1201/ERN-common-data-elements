@@ -12,7 +12,7 @@ Your feedback is more than welcome it will help us improve our semantic data mod
 
 <p align="center"> 
     <a href="https://drive.google.com/open?id=1HXyAfde8vmhn6yPiwlm37FpysIt9YqOS" target="_blank">
-        <img src="https://github.com/LUMC-BioSemantics/ERN-common-data-elements/blob/master/images/0_Patient_role.png"> 
+        <img src="images/0_Patient_role.png"> 
     </a>
 </p>
 
@@ -24,7 +24,7 @@ Notes: Pseudonym is modelled as a string.
 
 <p align="center"> 
     <a href="https://drive.google.com/open?id=1c_13PbOMnmM7gt-0JH10q0pcFHLDdiXE" target="_blank">
-        <img src="https://github.com/LUMC-BioSemantics/ERN-common-data-elements/blob/master/images/1_Pseudonym.png">
+        <img src="images/1_Pseudonym.png">
     </a>
 </p>
 
@@ -37,7 +37,7 @@ Notes:
 
 <p align="center"> 
     <a href="https://drive.google.com/open?id=1AOZLvur8nIQxq40Cntql4ZIFctdJc3XT" target="_blank">
-        <img src="https://github.com/LUMC-BioSemantics/ERN-common-data-elements/blob/master/images/2_Personal_information.png">
+        <img src="images/2_Personal_information.png">
     </a>
 </p>
 
@@ -49,7 +49,7 @@ Notes:
 
 <p align="center">
     <a href="https://drive.google.com/open?id=1w8yakn-boqg5-A_AvzKmsrWgiymADDtn" target="_blank">    
-        <img src="https://github.com/LUMC-BioSemantics/ERN-common-data-elements/blob/master/images/3_Patient_status.png">
+        <img src="images/3_Patient_status.png">
     </a>
 </p>
 
@@ -60,7 +60,7 @@ Notes:
 
 <p align="center">
     <a href="https://drive.google.com/open?id=10kokKPHOK6v63yirSlccEnzBdHGjj8Pf" target="_blank">
-        <img src="https://github.com/LUMC-BioSemantics/ERN-common-data-elements/blob/master/images/4_Care_pathway.png">
+        <img src="images/4_Care_pathway.png">
     </a>
 </p>
 
@@ -73,7 +73,7 @@ Notes:
 
 <p align="center"> 
     <a href="https://drive.google.com/open?id=1Rzl0ZGIEODhfhcnzRoP3xiD_7TfkiX5U" target="_blank">
-        <img src="https://github.com/LUMC-BioSemantics/ERN-common-data-elements/blob/master/images/5_Disease_history_and_diagnosis.png">
+        <img src="images/5_Disease_history_and_diagnosis.png">
     </a>
 </p>
 
@@ -82,7 +82,7 @@ Notes:
 
 <p align="center">
     <a href="https://drive.google.com/open?id=126NesjSHHaZk7kNSqtlFbDLZnKFDgywd" target="_blank">
-        <img src="https://github.com/LUMC-BioSemantics/ERN-common-data-elements/blob/master/images/6_Genetic_diagnosis.png">
+        <img src="images/6_Genetic_diagnosis.png">
     </a>
 </p>
 
@@ -93,7 +93,7 @@ Notes: We have added ‘no diagnosis’ as an option to the model for cases wher
 
 <p align="center">
     <a href="https://drive.google.com/open?id=16S5cdmcYPiFzlzpicky6eNm_20HXaYfX" target="_blank">
-        <img src="https://github.com/LUMC-BioSemantics/ERN-common-data-elements/blob/master/images/7_Undiagnosed.png">
+        <img src="images/7_Undiagnosed.png">
     </a>
 </p>
 
@@ -102,7 +102,7 @@ Notes: We have added ‘no diagnosis’ as an option to the model for cases wher
 
 <p align="center"> 
     <a href="https://drive.google.com/open?id=1KXsXcmG_M2v6iQOEHzbHym9yZJL6nLNO" target="_blank">
-        <img src="https://github.com/LUMC-BioSemantics/ERN-common-data-elements/blob/master/images/8_Consent.png">
+        <img src="images/8_Consent.png">
     </a>
 </p>
 
@@ -111,7 +111,7 @@ Notes: We have added ‘no diagnosis’ as an option to the model for cases wher
 
 <p align="center">
     <a href="https://drive.google.com/open?id=1xslS1uMj25wypD16UROol2jC6yf2TeK6" target="_blank">
-        <img src="https://github.com/LUMC-BioSemantics/ERN-common-data-elements/blob/master/images/9_Biobanks.png">
+        <img src="images/9_Biobanks.png">
     </a>
 </p>
 
@@ -126,7 +126,7 @@ Notes:
 
 <p align="center">
     <a href="https://drive.google.com/open?id=16O6jryBPCtwgrn3mC9q5mB2hflRX2Ux3" target="_blank">
-        <img src="https://github.com/LUMC-BioSemantics/ERN-common-data-elements/blob/master/images/10_Disability.png">
+        <img src="images/10_Disability.png">
     </a>
 </p>
 
