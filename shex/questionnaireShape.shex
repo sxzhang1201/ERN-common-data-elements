@@ -16,13 +16,16 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
   a [obo:NCIT_C121522 ncit:C130322]
 } 
 
-
 :percentageShape IRI {
-  a [obo:NCIT_C25613];
-  prov:wasGeneratedBy @:questionnaireShape;
-  sio:SIO_000300 xsd:string;
-  sio:SIO_000332 @:totalScaleScore
-} 
+ a [obo:NCIT_C25613];
+ prov:wasGeneratedBy @:questionnaireShape; 
+ sio:SIO_000300 xsd:string;
+ (
+  sio:SIO_000332 @:totalScaleScore; |
+  sio:SIO_000332 @:disabilityScore
+ )
+}
+
 
 :totalScaleScore IRI {
   a [obo:NCIT_C121531]
@@ -40,13 +43,6 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
   a [obo:NCIT_C130916 obo:NCIT_C130917 obo:NCIT_C130918]
 }
 
-
-:percentageShape2 IRI {
-  a [obo:NCIT_C25613];
-  prov:wasGeneratedBy @:questionnaireShape;
-  sio:SIO_000300 xsd:string;
-  sio:SIO_000332 @:disabilityScore
-} 
 
 :disabilityScore IRI {
   a [snomedct:715823002]
