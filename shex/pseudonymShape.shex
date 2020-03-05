@@ -6,11 +6,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 
 :personShape IRI {
-  a [obo:NCBITaxon_9606];
-  ^obo:IAO_0000219 @:identifierShape
+  a [obo:NCBITaxon_9606]
 }
 
 :identifierShape IRI {
   a [edam:data_0842];
-  dct:identifier xsd:string
+  dct:identifier xsd:string;
+  obo:IAO_0000219 @:personShape
 }

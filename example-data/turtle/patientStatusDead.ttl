@@ -1,0 +1,19 @@
+@prefix : <http://purl.org/biosemantics-lumc/example-rdf/ern-common-data-elements/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+:person1
+  a obo:NCBITaxon_9606;
+  sio:SIO_000008 :status1 .
+
+:status1
+  a ncit:C25688;
+  sio:SIO_000300 obo:PATO_0001422;
+  sio:SIO_000008 :deathDate1 .
+
+:deathDate1
+  a ncit:C70810;
+  sio:SIO_000300 "1990-01-01T01:12:50"^^xsd:dateTime .

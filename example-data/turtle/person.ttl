@@ -1,0 +1,9 @@
+@prefix : <http://purl.org/biosemantics-lumc/example-rdf/ern-common-data-elements/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+
+:person1 a obo:NCBITaxon_9606;
+  obo:RO_0000087 :personRole1 .
+
+:personRole1 a obo:OBI_0000093 .
+
+
