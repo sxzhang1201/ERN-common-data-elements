@@ -1,7 +1,6 @@
 PREFIX : <http://purl.org/biosemantics-lumc/shex/ern-common-data-elements/>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX sio: <http://semanticscience.org/resource/>
-PREFIX ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
 PREFIX hl7: <http://purl.bioontology.org/ontology/HL7/>
@@ -13,7 +12,7 @@ PREFIX hl7: <http://purl.bioontology.org/ontology/HL7/>
 }
 
 :statusShape IRI {
-  a [ncit:C25688];
+  a [obo:NCIT_C25688];
   (sio:SIO_000300 [obo:PATO_0001421  snomedct:399307001 hl7:C4291647] |
   sio:SIO_000300 [obo:PATO_0001422];
   sio:SIO_000008 @:deathDateShape
@@ -21,6 +20,6 @@ PREFIX hl7: <http://purl.bioontology.org/ontology/HL7/>
 }
 
 :deathDateShape IRI {
-  a [ncit:C70810];
+  a [obo:NCIT_C70810];
   sio:SIO_000300 xsd:dateTime
 }

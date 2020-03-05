@@ -1,6 +1,5 @@
 @prefix : <http://purl.org/biosemantics-lumc/example-rdf/ern-common-data-elements/> .
-@prefix obo: <http://purl.obolibrary.org/obo/> . 
-@prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sio: <http://semanticscience.org/resource/> .
@@ -9,7 +8,7 @@
 :person1 a obo:NCBITaxon_9606;
   obo:RO_0000056 :whodasQuestionnaire1 .
 
-:whodasQuestionnaire1 a ncit:C130322 .
+:whodasQuestionnaire1 a obo:NCIT_C130322 .
 
 
 :day1 a obo:NCIT_C25301;

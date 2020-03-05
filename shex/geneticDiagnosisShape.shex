@@ -1,6 +1,5 @@
 PREFIX : <http://purl.org/biosemantics-lumc/shex/ern-common-data-elements/>
-PREFIX obo: <http://purl.obolibrary.org/obo/> 
-PREFIX ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX wdp: <https://www.wikidata.org/wiki/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -13,7 +12,7 @@ PREFIX dct: <http://purl.org/dc/terms/>
 }
 
 :geneticDiagnosisShape IRI {
-  a [ncit:C20826];
+  a [obo:NCIT_C20826];
   rdf:value @:variantShape
 } 
 

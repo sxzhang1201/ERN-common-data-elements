@@ -1,6 +1,5 @@
 PREFIX : <http://purl.org/biosemantics-lumc/shex/ern-common-data-elements/>
 PREFIX obo: <http://purl.obolibrary.org/obo/> 
-PREFIX ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
 PREFIX rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -13,7 +12,7 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
 }
 
 :questionnaireShape IRI {
-  a [obo:NCIT_C121522 ncit:C130322]
+  a [obo:NCIT_C121522 obo:NCIT_C130322]
 } 
 
 :percentageShape IRI {
