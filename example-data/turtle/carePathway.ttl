@@ -4,8 +4,6 @@
 @prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix loinc: <http://purl.bioontology.org/ontology/LNC/> .
-@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 :person1
   a obo:NCBITaxon_9606 ;

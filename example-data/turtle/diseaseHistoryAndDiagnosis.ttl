@@ -3,7 +3,6 @@
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix loinc: <http://purl.bioontology.org/ontology/LNC/> .
 @prefix efo: <http://www.ebi.ac.uk/efo/> .
 @prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
