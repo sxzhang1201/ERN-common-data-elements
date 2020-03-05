@@ -8,7 +8,7 @@ PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
 
 :personShape IRI {
   a [obo:NCBITaxon_9606];
-  sio:SIO_000011 @:birthDateShape;
+  sio:SIO_000008 @:birthDateShape;
   obo:ERO_0001966 @:genderShape
 }
 
