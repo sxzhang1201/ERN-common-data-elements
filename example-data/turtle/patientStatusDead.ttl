@@ -3,28 +3,17 @@
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
-@prefix hl7: <http://purl.bioontology.org/ontology/HL7/> .
 
-# Example (alive)
+
 :person1
   a obo:NCBITaxon_9606;
   sio:SIO_000008 :status1 .
 
 :status1
   a ncit:C25688;
-  sio:SIO_000300 obo:PATO_0001421 .
-
-# Example (dead)
-:person2
-  a obo:NCBITaxon_9606;
-  sio:SIO_000008 :status2 .
-
-:status2
-  a ncit:C25688;
   sio:SIO_000300 obo:PATO_0001422;
-  sio:SIO_000008 :deathDate2 .
+  sio:SIO_000008 :deathDate1 .
 
-:deathDate2
+:deathDate1
   a ncit:C70810;
   sio:SIO_000300 "1990-01-01T01:12:50"^^xsd:dateTime .
