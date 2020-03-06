@@ -1,4 +1,4 @@
-PREFIX : <http://purl.org/biosemantics-lumc/shex/ern-common-data-elements/>
+PREFIX : <http://purl.org/ejp-rd/cde/v010/shex/>
 PREFIX obo: <http://purl.obolibrary.org/obo/> 
 PREFIX rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
