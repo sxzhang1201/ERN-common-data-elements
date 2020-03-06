@@ -1,6 +1,5 @@
 @prefix : <http://purl.org/biosemantics-lumc/example-rdf/ern-common-data-elements/> .
-@prefix obo: <http://purl.obolibrary.org/obo/> . 
-@prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sio: <http://semanticscience.org/resource/> .

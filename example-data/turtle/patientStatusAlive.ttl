@@ -1,12 +1,11 @@
 @prefix : <http://purl.org/biosemantics-lumc/example-rdf/ern-common-data-elements/> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix sio: <http://semanticscience.org/resource/> .
-@prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
 
 :person1
   a obo:NCBITaxon_9606;
   sio:SIO_000008 :status1 .
 
 :status1
-  a ncit:C25688;
+  a obo:NCIT_C25688;
   sio:SIO_000300 obo:PATO_0001421 .
