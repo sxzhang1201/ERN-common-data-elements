@@ -8,8 +8,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :personShape IRI {
   a [obo:NCBITaxon_9606];
   sio:SIO_000228 @:personRoleShape+;
-  sio:SIO_000217 @:birthDateShape;
-  sio:SIO_000217 @:genderShape
+  sio:SIO_000217 @:birthDateQualityShape;
+  sio:SIO_000217 @:genderQualityShape
 }
 
 :personRoleShape IRI {
@@ -22,7 +22,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   sio:SIO_000229 @:birthDateOutputShape
 }
 
-:birthDateShape IRI {
+:birthDateQualityShape IRI {
   a [obo:NCIT_C68615];
   sio:SIO_000642 @:birthDateOutputShape
 }
@@ -37,7 +37,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   sio:SIO_000229 @:genderOutputShape
 }
 
-:genderShape IRI {
+:genderQualityShape IRI {
   a [obo:NCIT_C17357];
   sio:SIO_000642 @:genderOutputShape
 }
