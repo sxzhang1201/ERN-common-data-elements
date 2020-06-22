@@ -2,24 +2,11 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix sio: <http://semanticscience.org/resource/> .
 @prefix snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
 :person1 a obo:NCBITaxon_9606;
-  sio:SIO_000228 :role1, :role2;
-  sio:SIO_000217 :birthDateQuality, :genderQuality .
-
-:birthDateQuality a obo:NCIT_C68615;
-  sio:SIO_000642  :birthDateOutput .
-
-:role1 a obo:OBI_0000093;
-  sio:SIO_000356 :birthDateProcess .
-
-:birthDateProcess sio:SIO_000229 :birthDateOutput .
-
-:birthDateOutput a sio:SIO_000340;
-  sio:SIO_000300 "2020-02-31T12:00:00"^^xsd:dateTime .
-
+  sio:SIO_000228 :role2;
+  sio:SIO_000217 :genderQuality .
 
 :role2 a obo:OBI_0000093;
   sio:SIO_000356 :genderProcess .
