@@ -1,0 +1,19 @@
+@prefix : <http://purl.org/ejp-rd/cde/v020/example-rdf/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
+
+
+:person1 a obo:NCBITaxon_9606;
+  sio:SIO_000228 :role2;
+  sio:SIO_000217 :genderQuality .
+
+:role2 a obo:OBI_0000093;
+  sio:SIO_000356 :genderProcess .
+
+:genderQuality a obo:NCIT_C17357;
+  sio:SIO_000642 :genderOutput .
+
+:genderProcess sio:SIO_000229 :genderOutput .
+
+:genderOutput a sio:SIO_000340, snomedct:703118005 .
