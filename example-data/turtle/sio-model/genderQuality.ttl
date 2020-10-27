@@ -4,16 +4,17 @@
 @prefix snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
 
 
-:person1 a obo:NCBITaxon_9606;
-  sio:SIO_000228 :role2;
-  sio:SIO_000217 :genderQuality .
+:person_ a sio:SIO_000498 ;
+  sio:SIO_000228 :role_2 ;
+  sio:SIO_000217 :quality_2 .
 
-:role2 a obo:OBI_0000093;
-  sio:SIO_000356 :genderProcess .
+:role_2 a obo:OBI_0000093 ;
+  sio:SIO_000356 :process_2 .
 
-:genderQuality a obo:NCIT_C17357;
-  sio:SIO_000642 :genderOutput .
+:quality_2 a obo:NCIT_C17357 ;
+  sio:SIO_000642 :output_2 .
 
-:genderProcess sio:SIO_000229 :genderOutput .
+:process_2 a sio:SIO_000006 ;
+  sio:SIO_000229 :output_2 .
 
-:genderOutput a sio:SIO_000340, snomedct:703118005 .
+:output_2 a sio:SIO_000340, snomedct:703118005 .

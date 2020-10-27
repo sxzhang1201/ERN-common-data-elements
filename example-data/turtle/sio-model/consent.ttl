@@ -1,0 +1,22 @@
+@prefix : <http://purl.org/ejp-rd/cde/v020/example-rdf/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+:identifier_ a edam:data_0842 ;
+    sio:denotes :role_ ;
+    sio:has-value "123456"^^xsd:int .
+
+:person_ a sio:SIO_000498 ;
+    sio:has-role :role_ .
+
+:role_ a obo:OBI_0000093 ;
+    sio:is-realized-in :process_ .
+
+:process_ a obo:ICO_0000196 ;
+    sio:has-output <http://example.org/my_consent_document.pdf> ;
+    sio:start-date "2020-10-18T13:00:00"^^xsd:dateTime .
+
+<http://example.org/my_consent_document.pdf> a obo:OBIB_0000488 .
