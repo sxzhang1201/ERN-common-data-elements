@@ -17,6 +17,3 @@
 :role_ a obo:OBI_0000093 ;
     sio:is-realized-in :process_ .
 
-:identifier_ a edam:data_0842 ; 
-    sio:denotes :role_ ;
-    sio:has-value "ABA123456"^^xsd:string .

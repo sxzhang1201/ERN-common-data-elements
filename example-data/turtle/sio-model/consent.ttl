@@ -5,10 +5,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-:identifier_ a edam:data_0842 ;
-    sio:denotes :role_ ;
-    sio:has-value "123456"^^xsd:int .
-
 :person_ a sio:SIO_000498 ;
     sio:has-role :role_ .
 

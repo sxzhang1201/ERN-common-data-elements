@@ -28,8 +28,4 @@ hgnc:2928 a edam:data_0842 ;
 :role_1 a obo:OBI_0000093 ;
     sio:is-realized-in :process_ .
 
-:identifier_1 a edam:data_0842 ;
-    sio:denotes :role_1 ;
-    sio:has-value "123456"^^xsd:int .
-
 dbsnp:rs121909098 a obo:SO_0000694, obo:VariO_0138 .

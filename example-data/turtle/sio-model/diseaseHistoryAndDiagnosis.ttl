@@ -8,10 +8,6 @@
 :person_ a sio:SIO_000498 ;
     sio:SIO_000228 :role_ ;
     sio:SIO_000217 :quality_1_, :quality_2_ .
-  
-:identifier_ a edam:data_0842 ;
-    sio:denotes :role_ ;
-    sio:has-value "123456"^^xsd:int .
 
 :role_ a obo:OBI_0000093 .
 
