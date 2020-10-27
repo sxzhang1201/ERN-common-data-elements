@@ -5,17 +5,17 @@
 
 
 :person_ a sio:SIO_000498 ;
-  sio:SIO_000228 :role_2 ;
-  sio:SIO_000217 :quality_2 . 
+  sio:SIO_000228 :role_ ;
+  sio:SIO_000217 :quality_ . 
 
-:role_2 a obo:OBI_0000093;
-  sio:SIO_000356 :process_2 .
+:role_ a obo:OBI_0000093;
+  sio:SIO_000356 :process_ .
 
-:process_2 a sio:SIO_000006 ;
-  sio:SIO_000229 :output_2 .
+:process_ a sio:SIO_000006 ;
+  sio:SIO_000229 :output_ .
 
-:output_2 a sio:SIO_000340 ;
+:output_ a sio:SIO_000340 ;
   sio:SIO_000300  "1990-01-01T01:12:50"^^xsd:dateTime .
 
-:quality_2 a obo:NCIT_C70810 ;
-  sio:SIO_000642 :output_2 .
+:quality_ a obo:NCIT_C70810 ;
+  sio:SIO_000642 :output_ .

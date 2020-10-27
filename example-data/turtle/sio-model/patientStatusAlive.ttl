@@ -4,16 +4,16 @@
 
 
 :person_ a sio:SIO_000498 ;
-  sio:SIO_000228 :role_1 ;
-  sio:SIO_000217 :quality_1 . 
+  sio:SIO_000228 :role_ ;
+  sio:SIO_000217 :quality_ . 
 
-:role_1 a obo:OBI_0000093 ;
-  sio:SIO_000356 :process_1 .
+:role_ a obo:OBI_0000093 ;
+  sio:SIO_000356 :process_ .
 
-:process_1 a sio:SIO_000006 ;
-  sio:SIO_000229 :output_1 .
+:process_ a sio:SIO_000006 ;
+  sio:SIO_000229 :output_ .
 
-:output_1 a obo:PATO_0001421 .
+:output_ a obo:PATO_0001421 .
 
-:quality_1 a obo:NCIT_C25688 ;
-  sio:SIO_000642 :output_1 .
+:quality_ a obo:NCIT_C25688 ;
+  sio:SIO_000642 :output_ .
