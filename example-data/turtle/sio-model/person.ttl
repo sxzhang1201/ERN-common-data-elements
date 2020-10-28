@@ -9,4 +9,3 @@
 :role_ a obo:OBI_0000093 . # :role_ a obo:patient_role .
 
 :taxon_ a obo:NCBITaxon_9606 . # :taxon_ a obo:homo_sapiens .
-
