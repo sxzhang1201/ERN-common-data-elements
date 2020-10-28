@@ -7,40 +7,40 @@
 
 
 :person_ a sio:SIO_000498 ;
-   sio:has-role :role_ ;
-   sio:has-quality :quality_ .
+   sio:SIO_000228 :role_ ;
+   sio:SIO_000217 :quality_ .
 
 :role_ a obo:OBI_0000093 ;
-   sio:is-realized-in :test_process_ .
+   sio:SIO_000356 :test_process_ .
 
 :quality_ a obo:NCIT_C21007 ;  
-   sio:is-basis-for :answer_ ;
-   sio:has-measurement-value :score_ .
+   sio:SIO_000642 :answer_ ;
+   sio:SIO_000216 :score_ .
 
 :questionnaire_document_ a obo:NCIT_C130322 ; 
-   sio:has-part :questionnaire_question_ .
+   sio:SIO_000028 :questionnaire_question_ .
 
 :questionnaire_question_ a obo:NCIT_C130916 ; 
-   # sio:is-about :quality_ ; # optional
-   sio:has-value "How many days difficulty present?"^^xsd:string .
+   # sio:SIO_000332 :quality_ ; # optional
+   sio:SIO_000300 "How many days difficulty present?"^^xsd:string .
 
 :test_process_ a obo:OMIT_0028217 ; 
-   sio:has-input :questionnaire_question_ ;
-   sio:has-output :answer_ .
+   sio:SIO_000230 :questionnaire_question_ ;
+   sio:SIO_000229 :answer_ .
 
-:answer_ a sio:realizable-entity ; 
-   # sio:has-attribute :score_ ; # optional
-   sio:has-unit obo:UO_0000033 ; 
-   sio:has-value "1"^^xsd:integer .
+:answer_ a sio:SIO_000340 ; 
+   # sio:SIO_000008 :score_ ; # optional
+   sio:SIO_000221 obo:UO_0000033 ; 
+   sio:SIO_000300 "1"^^xsd:integer .
 
 :evaluation_process_ a obo:OMIT_0005448 ; 
-   sio:has-input :answer_ ;
-   sio:has-output :score_ ;
-   prov:isInformedBy :test_process_ .
+   sio:SIO_000230 :answer_ ;
+   sio:SIO_000229 :score_ ;
+   prov:wasInformedBy :test_process_ .
 
 :score_ a snomedct:715823002 ; 
-   sio:has-attribute :percentage_ ;
-   sio:has-value "22.3"^^xsd:decimal .
+   sio:SIO_000008 :percentage_ ;
+   sio:SIO_000300 "22.3"^^xsd:decimal .
 
 :percentage_ a obo:UO_0000187 ;  
-   sio:has-value "50"^^xsd:decimal .
+   sio:SIO_000300 "50"^^xsd:decimal .
