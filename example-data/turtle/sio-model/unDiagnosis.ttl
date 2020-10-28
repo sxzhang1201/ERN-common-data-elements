@@ -1,0 +1,19 @@
+@prefix : <http://purl.org/ejp-rd/cde/v020/example-rdf/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+:process_ a sio:medical-diagnosis ;
+    sio:has-output :output_ ;
+    sio:start-date "2020-10-18T13:00:00"^^xsd:dateTime .
+
+:output_ a <https://snomedbrowser.com/Codes/Details/282292002> .
+
+:person_ a sio:SIO_000498 ;
+    sio:has-role :role_ .
+
+:role_ a obo:OBI_0000093 ;
+    sio:is-realized-in :process_ .
+

@@ -1,0 +1,31 @@
+@prefix : <http://purl.org/ejp-rd/cde/v020/example-rdf/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix dbsnp: <http://identifiers.org/dbsnp:> .
+@prefix hgnc: <https://identifiers.org/hgnc:> .
+@prefix bao: <http://www.bioassayontology.org/bao#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+:gene_2 a obo:NCIT_C16612 ;
+    sio:has-role :role_2 .
+
+:role_2 a bao:BAO_0003064 ;
+    sio:is-realized-in :process_ .
+
+hgnc:2928 a edam:data_0842 ;
+    sio:denotes :role_2 ;
+    sio:has-value "HGNC 2928"@en .
+
+:process_ a obo:NCIT_C15709 ;
+    sio:has-output dbsnp:rs121909098 ;
+    sio:start-date "2020-10-18T13:00:00"^^xsd:dateTime .
+
+:person_1 a sio:SIO_000498 ;
+    sio:has-role :role_1 .
+
+:role_1 a obo:OBI_0000093 ;
+    sio:is-realized-in :process_ .
+
+dbsnp:rs121909098 a obo:SO_0000694, obo:VariO_0138 .
