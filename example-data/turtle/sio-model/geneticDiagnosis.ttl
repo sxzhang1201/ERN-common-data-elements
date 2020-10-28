@@ -6,26 +6,18 @@
 @prefix hgnc: <https://identifiers.org/hgnc:> .
 @prefix bao: <http://www.bioassayontology.org/bao#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-
-:gene_2 a obo:NCIT_C16612 ;
-    sio:has-role :role_2 .
-
-:role_2 a bao:BAO_0003064 ;
-    sio:is-realized-in :process_ .
-
-hgnc:2928 a edam:data_0842 ;
-    sio:denotes :role_2 ;
-    sio:has-value "HGNC 2928"@en .
 
 :process_ a obo:NCIT_C15709 ;
-    sio:has-output dbsnp:rs121909098 ;
-    sio:start-date "2020-10-18T13:00:00"^^xsd:dateTime .
+    sio:SIO_000229 :variant_ .
 
-:person_1 a sio:SIO_000498 ;
-    sio:has-role :role_1 .
+:person_ a sio:SIO_000498 ;
+    sio:SIO_000228 :role_ .
 
-:role_1 a obo:OBI_0000093 ;
-    sio:is-realized-in :process_ .
+:role_ a obo:OBI_0000093 ;
+    sio:SIO_000356 :process_ .
 
-dbsnp:rs121909098 a obo:SO_0000694, obo:VariO_0138 .
+:variant_ a obo:VariO_0138;
+    rdfs:label "NG_007148.2:g.146889G>A" . 
