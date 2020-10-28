@@ -1,0 +1,46 @@
+@prefix : <http://purl.org/ejp-rd/cde/v020/example-rdf/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/> .
+
+
+:person_ a sio:SIO_000498 ;
+   sio:has-role :role_ ;
+   sio:has-quality :quality_ .
+
+:role_ a obo:OBI_0000093 ;
+   sio:is-realized-in :test_process_ .
+
+:quality_ a obo:NCIT_C21007 ;  
+   sio:is-basis-for :answer_ ;
+   sio:has-measurement-value :score_ .
+
+:questionnaire_document_ a obo:NCIT_C130322 ; 
+   sio:has-part :questionnaire_question_ .
+
+:questionnaire_question_ a obo:NCIT_C130916 ; 
+   # sio:is-about :quality_ ; # optional
+   sio:has-value "How many days difficulty present?"^^xsd:string .
+
+:test_process_ a obo:OMIT_0028217 ; 
+   sio:has-input :questionnaire_question_ ;
+   sio:has-output :answer_ .
+
+:answer_ a sio:realizable-entity ; 
+   # sio:has-attribute :score_ ; # optional
+   sio:has-unit obo:UO_0000033 ; 
+   sio:has-value "1"^^xsd:integer .
+
+:evaluation_process_ a obo:OMIT_0005448 ; 
+   sio:has-input :answer_ ;
+   sio:has-output :score_ ;
+   prov:isInformedBy :test_process_ .
+
+:score_ a snomedct:715823002 ; 
+   sio:has-attribute :percentage_ ;
+   sio:has-value "22.3"^^xsd:decimal .
+
+:percentage_ a obo:UO_0000187 ;  
+   sio:has-value "50"^^xsd:decimal .
