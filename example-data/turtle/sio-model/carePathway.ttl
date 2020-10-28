@@ -4,7 +4,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
+:person_ a sio:SIO_000498 ;
+  sio:SIO_000228 :role_ .
+
+:role_ a obo:OBI_0000093 ;
+  sio:SIO_000356 :process_ .
+
 :process_ a obo:NCIT_C142427, obo:NCIT_C159705, sio:SIO_000006 ;
     sio:start-date "2020-10-18T13:00:00"^^xsd:dateTime .
-
-
