@@ -15,4 +15,4 @@
     sio:has-output <http://example.org/my_consent_document.pdf> ;
     sio:start-date "2020-10-18T13:00:00"^^xsd:dateTime .
 
-<http://example.org/my_consent_document.pdf> a obo:OBIB_0000488 .
+<http://example.org/my_consent_document.pdf> a sio:SIO_000340, obo:OBIB_0000488 .
