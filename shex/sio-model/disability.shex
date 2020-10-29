@@ -24,12 +24,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :questionnaireShape IRI {
   a [ obo:NCIT_C130322 ] ;
-  sio:SIO_000028 @:questionnaire_questionShape
+  sio:SIO_000028 @:questionnaireQuestionShape
 }
 
 :questionnaireQuestionShape IRI {
   a [ obo:NCIT_C130916 ] ;
-  sio:SIO_000300 xsd:integer
+  sio:SIO_000300 xsd:string
 }
 
 :testprocessShape IRI {
@@ -41,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :answerShape IRI {
   a [ sio:SIO_000340 ] ;
   sio:SIO_000221 [obo:UO_0000033] ;
-  sio:SIO_000300 xsd:string
+  sio:SIO_000300 xsd:integer
 }
 
 :evaluationprocessShape IRI {
@@ -54,7 +54,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :scoreShape IRI {
   a [ snomedct:715823002 ] ;
   sio:SIO_000008 @:percentageShape ;
-  sio:SIO_000300 xsd:integer
+  sio:SIO_000300 xsd:decimal
 }
 
 :percentageShape IRI {
