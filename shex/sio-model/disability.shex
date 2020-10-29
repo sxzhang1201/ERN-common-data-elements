@@ -27,20 +27,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   sio:SIO_000028 @:questionnaire_questionShape
 }
 
-:questionnaire_questionShape IRI {
+:questionnaireQuestionShape IRI {
   a [ obo:NCIT_C130916 ] ;
-  sio:SIO_000300 xsd:string
+  sio:SIO_000300 xsd:integer
 }
 
 :testprocessShape IRI {
   a [ obo:OMIT_0028217 ] ;
-  sio:SIO_000230 @:questionnaire_questionShape ;
+  sio:SIO_000230 @:questionnaireQuestionShape ;
   sio:SIO_000229 @:answerShape
 }
 
 :answerShape IRI {
   a [ sio:SIO_000340 ] ;
-  sio:SIO_000221 obo:UO_0000033 ;
+  sio:SIO_000221 [obo:UO_0000033] ;
   sio:SIO_000300 xsd:string
 }
 
