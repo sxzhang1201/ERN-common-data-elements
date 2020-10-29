@@ -1,12 +1,11 @@
 PREFIX : <http://purl.org/ejp-rd/cde/v020/shex/>
 PREFIX obo: <http://purl.obolibrary.org/obo/> 
 PREFIX sio: <http://semanticscience.org/resource/>
-
-
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :specimenShape IRI {
   a [ sio:SIO_010412 ] ;
-  sio:SIO_00022 @:roleShape
+  sio:SIO_000228 @:roleShape
 }
 
 :roleShape IRI {
