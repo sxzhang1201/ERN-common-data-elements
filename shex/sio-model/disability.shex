@@ -3,6 +3,7 @@ PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX sio: <http://semanticscience.org/resource/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
 
 :personShape IRI {
   a [ sio:SIO_000498 ] ;
@@ -60,13 +61,3 @@ PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
   a [ obo:UO_0000187 ] ;
   sio:SIO_000300 xsd:decimal
 }
-
-
-
-
-
-
-
-
-
-
