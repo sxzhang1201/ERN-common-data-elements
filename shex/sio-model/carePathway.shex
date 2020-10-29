@@ -2,10 +2,32 @@ PREFIX : <http://purl.org/ejp-rd/cde/v020/shex/>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX sio: <http://semanticscience.org/resource/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+<<<<<<< HEAD
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+
+:personShape IRI {
+  a [sio:SIO_000498];
+  sio:SIO_000228 @:roleShape
+}
+
+
+:roleShape IRI {
+  a [obo:OBI_0000093];
+  sio:SIO_000356 @:processShape
+}
+
+:processShape IRI {
+  a [sio:SIO_000006];
+  a [obo:NCIT_C142427];
+  a [obo:NCIT_C159705];
+  prov:startedAtTime xsd:dateTime
+=======
 
 :processShape IRI {
   a [sio:process];
   a [obo:NCIT_C142427];
   a [obo:NCIT_C159705];
   sio:start-date xsd:dateTime
+>>>>>>> 183a8282d6ae4c6359d769dbf124cde976bc2bfa
 }
