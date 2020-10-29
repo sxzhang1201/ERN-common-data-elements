@@ -53,7 +53,7 @@ PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
 :scoreShape IRI {
   a [ snomedct:715823002 ] ;
   sio:SIO_000008 @:percentageShape ;
-  sio:SIO_000300 xsd:decimal 
+  sio:SIO_000300 xsd:integer
 }
 
 :percentageShape IRI {
