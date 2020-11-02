@@ -6,16 +6,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :personShape IRI { 
   a [ sio:SIO_000498 ] ;
-  sio:SIO_000228 @:role1Shape ;
-  sio:SIO_000228 @:role2Shape
+  sio:SIO_000228 @:geneticTestingRoleShape ;
+  sio:SIO_000228 @:healthcareActivityRoleShape
 }
 
-:role1Shape IRI {
+:geneticTestingRoleShape IRI {
   a [ obo:OBI_0000093 ] ;
-  sio:SIO_000356 @:process1Shape
+  sio:SIO_000356 @:geneticTestingProcessShape
 }
 
-:process1Shape IRI {
+:geneticTestingProcessShape IRI {
   a [ obo:NCIT_C15709 ] ;
   sio:SIO_000229  @:variantShape
 }
@@ -25,16 +25,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   rdfs:label xsd:string
 }
 
-:role2Shape IRI {
+:healthcareActivityRoleShape IRI {
   a [ obo:OBI_0000093 ] ;
-  sio:SIO_000356 @:process2Shape
+  sio:SIO_000356 @:healthcareActivityProcessShape
 }
 
-:process2Shape IRI {
+:healthcareActivityProcessShape IRI {
   a [ obo:NCIT_C16205 ] ;
   sio:SIO_000229  @:phenotypeShape
 }
 
 :phenotypeShape IRI {
-  a [ obo:HP_0001249 ] 
+  a IRI /^http:\/\/purl.obolibrary.org\/obo\/HP_/ 
 }
