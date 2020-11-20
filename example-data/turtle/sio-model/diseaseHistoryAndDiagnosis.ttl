@@ -18,18 +18,18 @@
 
 :process_1 a sio:SIO_001001 ;
   sio:SIO_000229 :output_1;
-  prov:startedAtTime  "2017-10-18T13:00:00"^^xsd:dateTime .
+  sio:SIO_000680  "2017-10-18T13:00:00"^^xsd:dateTime .
   
 :process_2 a sio:SIO_000006 ;
   sio:SIO_000229 :output_2;
   prov:wasInformedBy :process_1;
-  prov:startedAtTime  "2015-10-18T13:00:00"^^xsd:dateTime .
+  sio:SIO_000680  "2015-10-18T13:00:00"^^xsd:dateTime .
   
   
 :process_3 a sio:SIO_000006 ;
   sio:SIO_000229 :output_3;
   prov:wasInformedBy :process_1;
-  prov:startedAtTime  "2017-10-19T13:00:00"^^xsd:dateTime .  
+  sio:SIO_000680  "2017-10-19T13:00:00"^^xsd:dateTime .  
   
 
 :output_1 a sio:SIO_000340, ordo:Orphanet_377793.
