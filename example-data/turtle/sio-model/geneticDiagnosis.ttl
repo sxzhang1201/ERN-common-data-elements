@@ -4,7 +4,6 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-
 :process_ a obo:NCIT_C15709 ;
     sio:SIO_000229 :variant_ .
 
