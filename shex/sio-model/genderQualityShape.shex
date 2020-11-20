@@ -5,7 +5,7 @@ PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
 
 
 :personShape IRI {
-  a [obo:NCBITaxon_9606];
+  a [sio:SIO_000498];
   sio:SIO_000228 @:personRoleShape;
   sio:SIO_000217 @:genderQualityShape
 }
@@ -21,6 +21,7 @@ PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
 }
 
 :genderProcessShape IRI {
+  a [sio:SIO_000006];
   sio:SIO_000229 @:genderOutputShape
 }
 

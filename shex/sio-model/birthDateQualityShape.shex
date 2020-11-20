@@ -5,7 +5,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 
 :personShape IRI {
-  a [obo:NCBITaxon_9606];
+  a [sio:SIO_000498];
   sio:SIO_000228 @:personRoleShape;
   sio:SIO_000217 @:birthDateQualityShape
 }
@@ -16,6 +16,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 }
 
 :birthDateProcessShape IRI {
+  a [sio:SIO_000006];
   sio:SIO_000229 @:birthDateOutputShape
 }
 

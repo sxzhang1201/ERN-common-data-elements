@@ -4,8 +4,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ordo: <http://www.orpha.net/ORDO/> .
 @prefix loinc: <http://purl.bioontology.org/ontology/LNC/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-
 
 :person_ a sio:SIO_000498 ;
     sio:SIO_000228 :role_ ;
@@ -18,21 +16,23 @@
 
 :process_1 a sio:SIO_001001 ;
   sio:SIO_000229 :output_1;
-  prov:startedAtTime  "2017-10-18T13:00:00"^^xsd:dateTime .
+  sio:SIO_000680  "2017-10-18T13:00:00"^^xsd:dateTime .
   
 :process_2 a sio:SIO_000006 ;
   sio:SIO_000229 :output_2;
-  prov:wasInformedBy :process_1;
-  prov:startedAtTime  "2015-10-18T13:00:00"^^xsd:dateTime .
+  sio:SIO_000230 :output_1;
+  sio:SIO_000680  "2015-10-18T13:00:00"^^xsd:dateTime .
   
   
 :process_3 a sio:SIO_000006 ;
   sio:SIO_000229 :output_3;
-  prov:wasInformedBy :process_1;
-  prov:startedAtTime  "2017-10-19T13:00:00"^^xsd:dateTime .  
-  
+  sio:SIO_000230 :output_1;
+  sio:SIO_000680  "2017-10-19T13:00:00"^^xsd:dateTime .    
 
-:output_1 a sio:SIO_000340, ordo:Orphanet_377793.
+:output_1 a sio:SIO_000340, sio:SIO_000015; 
+  sio:SIO_000628 :disease_ .
+  
+:disease_ a ordo:Orphanet_377793.
 
 :output_2 a sio:SIO_000340,  loinc:LP91394-4.  
 
