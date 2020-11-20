@@ -21,6 +21,7 @@ PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
 }
 
 :genderProcessShape IRI {
+  a [sio:SIO_000006];
   sio:SIO_000229 @:genderOutputShape
 }
 
