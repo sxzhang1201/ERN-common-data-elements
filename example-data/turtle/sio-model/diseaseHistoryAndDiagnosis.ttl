@@ -29,10 +29,12 @@
 :process_3 a sio:SIO_000006 ;
   sio:SIO_000229 :output_3;
   sio:SIO_000230 :output_1; # has input
-  sio:SIO_000680  "2017-10-19T13:00:00"^^xsd:dateTime .  
-  
+  sio:SIO_000680  "2017-10-19T13:00:00"^^xsd:dateTime .    
 
-:output_1 a sio:SIO_000340, ordo:Orphanet_377793.
+:output_1 a sio:SIO_000340, SIO_000015; 
+  sio:SIO_000628 :disease_ . # refers to
+  
+:disease_ a ordo:Orphanet_377793.
 
 :output_2 a sio:SIO_000340,  loinc:LP91394-4.  
 
