@@ -19,5 +19,5 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
   a [sio:SIO_000006];
   a [obo:NCIT_C142427];
   a [obo:NCIT_C159705];
-  prov:startedAtTime xsd:dateTime
+  sio:SIO_000680 xsd:dateTime
 }
