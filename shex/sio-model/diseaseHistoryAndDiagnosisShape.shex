@@ -3,6 +3,7 @@ PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX sio: <http://semanticscience.org/resource/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX loinc: <http://purl.bioontology.org/ontology/LNC/>
+PREFIX snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT/>
 
 
 :personShape IRI {
@@ -30,7 +31,7 @@ PREFIX loinc: <http://purl.bioontology.org/ontology/LNC/>
 
 :outputShape IRI {
   a [sio:SIO_000340];
-  a [loinc:LP91394-4]
+  a [loinc:LP91394-4 snomedct:263675000 snomedct:373068000]
 }
 
 :outputReferToDiseaseShape IRI {
